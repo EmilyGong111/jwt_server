@@ -1,0 +1,10 @@
+POST http://192.168.1.47:9090/login
+Content-Type: application/json
+
+{
+    "username": "Raymond"
+}
+
+###
+GET http://192.168.1.47:9090/user_info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1MzcxNDExMn0.ALzq1BocYTbYhQcRJySruki4Vk0KslUUlgIlKxwQ3AM
