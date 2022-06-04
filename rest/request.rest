@@ -7,12 +7,12 @@ Content-Type: application/json
 
 ###
 GET http://192.168.1.47:9090/user_info
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMxNzMzNX0.9w2YDp68D8uB_WoDdXhZhmXRydiReMVkSLvlUccMJhY
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMjY3NywiZXhwIjoxNjU0MzIyNjk3fQ.LKHJoqzU4Fb57_B466LMdrfwXRSPzQ8winpGQPQLl7Y
 
 ###
-POST http://192.168.1.47:9090/user_info
+POST http://192.168.1.47:9090/token
 Content-Type: application/json
 
 {
-    "token":
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMjIyMX0.C42sMVfH0FGWd0vNedXH0idSoKfFgez3-IBNKSb3kSw"
 }
