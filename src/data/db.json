@@ -1,39 +1,56 @@
 {
-
-    "user": [
-    
+  "user": [
     {
-    
-    "id": 1,
-    
-    "name": "Raymond",
-    
-    "age": 20
-    
+      "id": 1,
+      "name": "Raymond",
+      "age": 20
     },
-    
     {
-    
-    "id": 2,
-    
-    "name": "Emily",
-    
-    "age": 40
-    
+      "id": 2,
+      "name": "Emily",
+      "age": 40
     },
-    
     {
-    
-    "id": 3,
-    
-    "name": "Petter",
-    
-    "age": 33
-    
+      "id": 3,
+      "name": "Petter",
+      "age": 33
     }
-    
-    ],
-    
-    "auth": []
-    
+  ],
+  "auth": [
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMxODIyNn0.ZaVWx00WyfKmIaBgPKmxrQQ7f4LFrgMLTStUlJIXLVo",
+      "id": 1
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMDc3Nn0.T4sxhoEdMRePfL8eo3COmAznO3-HFgfazybX-O4mLDw",
+      "id": 2
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMDg3NH0.fSG9dowWdOJjWUehMWxfg_0EZ7txzp5ffDrGRruA4qw",
+      "id": 3
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMTI0M30.yB4BpfiY0D1v9RC4H3okZgmOBwTudv9u6LCuY1SwMLI",
+      "id": 4
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMjA2NX0.Or0S-g34BlNyqRLMKfq_up_JUTx_7LZPPBqF6e5t3R8",
+      "id": 5
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMjEzNn0.UC7S1cIDVYdsEriOqSgmwgfOwCpxw-JuQJMFy5tjnO0",
+      "id": 6
+    },
+    {
+      "name": "Raymond",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUmF5bW9uZCIsImlhdCI6MTY1NDMyMjIyMX0.C42sMVfH0FGWd0vNedXH0idSoKfFgez3-IBNKSb3kSw",
+      "id": 7
     }
+  ]
+}

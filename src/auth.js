@@ -18,4 +18,10 @@ const authenticate_token = (req, res, next)=>{
         })
     }
 }
-module.exports = {authenticate_token}
+function generateAccessToken(user, time){
+    return JWT.sign( user, process.env.ACCESS_SECRET, { expiresIn: time})
+  }
+  function generateRefreshToken(user){
+    return JWT.sign( user, process.env.REFRESH_SECRET)
+  }
+module.exports = {authenticate_token, generateAccessToken, generateRefreshToken}
